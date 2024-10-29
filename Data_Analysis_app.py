@@ -8,7 +8,7 @@ import time
 
 st.header("Do Data Analysis WithOut Libararies")
 
-st.image("C:\\Users\\ramna\\Downloads\\data_ana.jpg",use_column_width=True)
+st.image("data_ana.jpg",use_column_width=True)
 
 import base64
 
@@ -18,8 +18,8 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 # Path to your image
-img_path = "C:/Users/ramna/Downloads/grey_color.jpg"
-img_base64 = get_base64_of_bin_file(img_path)
+
+img_base64 = get_base64_of_bin_file("grey_color.jpg")
 
 # Apply CSS to Streamlit's main container to display the background image
 st.markdown(
