@@ -1,6 +1,7 @@
+streamlit
 seaborn
-numpy
-pandas
 matplotlib
+pandas
+numpy
 time
 plotly
