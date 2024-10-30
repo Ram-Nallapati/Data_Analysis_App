@@ -857,8 +857,10 @@ if uploaded_file is not None:
     )
 
     ## Feed Back
+    user_feedback = []
     text = st.text_area("How to Improve Website ? Give Suggestions :",max_chars=500)
-    if len(text):
+    if len(text)>0:
+        user_feedback.append(text)
         text = ""
         st.balloons()
 
